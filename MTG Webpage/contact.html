@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- 
+	Student Name: Emma Farley
+	File Name: contact.html
+	Date: 11/15/2024
+ -->
+<html lang="en">
+<head>
+	<title>Magic the Gathering: For Beginners</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header">
+        <header>
+            <a href="home.html"><img id="pitchfork" src="images/MTG Icon.jpg" alt="MTG Icon"></a>
+            <h1>Magic the Gathering: For Beginners</h1>
+        </header>
+    </div>
+	
+	<nav>
+		<ul>
+            <li><a href="home.html">Home</a></li>  
+            <li><a href="formats.html">Game Modes</a></li> 
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="video.html">How To Video</a></li> 
+        </ul>
+	</nav>
+	
+	<main>
+        
+        <div>
+            <h3>Complete the form below for more information regarding Magic the Gathering</h3>
+
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="fName">First Name:</label>
+					<input type="text" name="fName" id="fName">
+
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName">
+
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+
+					<label for="phone">Phone:</label>
+					<input type="tel" name="phone" id="phone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <p>I would like more information about:</p>
+
+					<label for="tourny"><input type="radio" name="info" id="tourny" value="Tournaments">Tournaments</label>
+
+					<label for="set"><input type="radio" name="info" id="set" value="Set Releases">Set Releases</label>
+
+					<label for="ban"><input type="radio" name="info" id="ban" value="Ban List">Ban List</label>
+
+					<label for="other"><input type="radio" name="info" id="other" value="Other">Other, pleasse specify below.</label>
+
+					<label for="questions">What questions do you have for us?</label>
+					<textarea name="questions" id="questions" rows="10" cols="50"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit" class="btn">
+
+                <input type="reset" value="Reset" class="btn">
+            </form>
+        </div>
+        
+	</main>
+	
+</body>
+</html>
